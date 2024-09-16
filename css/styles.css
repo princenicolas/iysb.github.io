@@ -6,16 +6,21 @@ body {
 
 header {
     background-color: #dcdcdc;
+    position: fixed;
+    width: 100%;
 }
 header ul {
     list-style-type: none;
     text-align: center;
+
 }
 
 header ul li {
     color: black;
     display: inline;
-    padding: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+
 }
 
 nav h1 {
