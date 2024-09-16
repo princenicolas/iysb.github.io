@@ -1,10 +1,6 @@
 
 body {
     background-color: #262a2b;
-    background-image: url(../Images/tiwsc_ensemble.jpg); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: unset;
     color: antiquewhite;
     }
 
@@ -27,6 +23,9 @@ nav h1 {
 
     font-size: 50px;
 }
+footer h1 {
+    text-align: center;
+}
 footer h3 {
     text-align:center;
 }
@@ -34,4 +33,11 @@ footer h3 {
 footer img {
     height: 50px; 
     width:50px;
+}
+#intro {
+    background-image: url(../Images/tiwsc_ensemble.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: unset;
+    height: 840px;
 }
