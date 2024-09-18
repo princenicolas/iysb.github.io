@@ -43,3 +43,17 @@ footer img {
     background-size: unset;
     height: 840px;
 }
+div.aboutus {
+    width: 100%;
+    overflow: auto;
+}
+div.aboutus div {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin: 16px;
+}
+#history {
+    font-size: 18px;
+    text-align: justify;
+}
