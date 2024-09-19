@@ -50,8 +50,8 @@ div.aboutus {
 
 }
 div.aboutus div {
-    width: 45%;
-    float: left;
+
+   
     text-align: center;
     padding: 1%;
 
@@ -61,6 +61,6 @@ div.aboutus div {
 #history {
     font-size: 18px;
     text-align: justify;
-    float: left;
+   
 
 }
