@@ -3,9 +3,8 @@ body {
     background-color: #262a2b;
     color: antiquewhite;
     }
-
 header {
-    background-color: #dcdcdc;
+    background-color: rgba(220, 220, 220, 0.6);
     position: fixed;
     width: 100%;
 }
@@ -14,13 +13,24 @@ header ul {
     text-align: center;
     margin: 3px;
 }
-
-header ul li {
+#iysblogo img {
+    height: 50px; 
+    width:50px;
+    float: left;
+    padding: 10px;
+}
+#navlink {
+    float: right;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+#navlink li {
     color: black;
     display: inline;
     padding-right: 16px;
+    font-weight: bold;
 }
-
 nav h1 {
     text-align:center;
     font-size: 50px;
@@ -31,7 +41,6 @@ footer h1 {
 footer h3 {
     text-align:center;
 }
-
 footer img {
     height: 50px; 
     width:50px;
@@ -47,16 +56,11 @@ div.aboutus {
     width: 100%;
     height: 100%;
     overflow: auto;
-
 }
 div.aboutus div {
-
-   
     text-align: center;
     padding: 1%;
-
 }
-
 
 #history {
     font-size: 18px;
