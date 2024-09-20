@@ -53,17 +53,20 @@ footer img {
     background-size: unset;
     height: 840px;
 }
-div.aboutus {
-    width: 100%;
+#aboutus {
+    max-width: 1720px;
     height: 100%;
     overflow: auto;
+    margin: auto;
 }
-
 #tiwscvideo {
     float: left;
     background-color: #262a2b;
     width: 50%;
-    
+}
+.video {
+    height: 560px;
+    width: 100%;
 }
 #history {
     font-size: 18px;
@@ -72,7 +75,11 @@ div.aboutus {
     color: black;
     line-height: 1.5;
     width: 50%;
-    float: left;
-    
-    
+    float: right;
+}
+@media (max-width: 1720px) {
+    #tiwscvideo, #history {
+        display: block;
+        width: 100%;
+    }
 }
